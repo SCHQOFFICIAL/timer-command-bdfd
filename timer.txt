@@ -1,0 +1,7 @@
+command !timer : $nomention
+$username,The Timer Has Started Of $noMentionMessage!
+command !timer(it's 2 times) : $nomention
+$replyIn[$noMentionMessage]
+$title[RING RING RING!]
+$description[$username,The Timer Of $noMentionMessage Has Ended!]
+$addTimestamp
